@@ -1,0 +1,108 @@
+body{
+  background-image: linear-gradient(to right, #FA8072 , pink);
+  padding: 150px 0px 0px 0px;
+  
+}
+#div1 {
+    background-color: blue;
+    width: 350px;
+    height: 150px;
+  }
+  #div2 {
+    background-color: red;
+    width: 350px;
+    text-align: left;
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 0px 12px 0px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+    
+  }
+  
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+  .close {
+    position: left;
+    right: 0;
+    left: 0;
+    
+    padding: 12px 5px 12px 5px;
+  }
+  
+  .close:hover {
+    
+    color: white;
+  }
+  
+  .header {
+    
+    padding: 10px 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+
+  .addButt {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addButt:hover {
+    background-color: lightblue;
+  }
